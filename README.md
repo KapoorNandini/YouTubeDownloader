@@ -1,4 +1,7 @@
 ### ⚡ YouTube Downloader ⚡
+
+<a href="#"><img width="50%" height="30%" src="photo.jpg" height="175px"/></a>
+
 ### About 🙋🏻‍♂️
 ```python
 YouTube Downloader With GUI
@@ -11,8 +14,6 @@ Press Download
 ```python
 Just Run main.py 
 ```
-<a href="#"><img width="50%" height="30%" src="photo.jpg" height="175px"/></a>
-
 # Follow me on
 <p align="left">
   
