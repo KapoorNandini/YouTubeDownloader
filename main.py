@@ -4,9 +4,14 @@
 # This file is a part of < https://github.com/IshanSingla/YouTubeDownloader/ >
 # PLease read the GNU Affero General Public License in
 # <https://www.github.com/IshanSingla/YouTubeDownloader/blob/main/LICENSE/>.
-
+import os
 import tkinter
-from pytube import YouTube
+try:
+    from pytube import YouTube
+except Exception as e:
+    os.system("pip install pytube")
+    os.system("cls")
+    from pytube import YouTube
 
 root = tkinter.Tk()
 root.geometry('1000x600')
